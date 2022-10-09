@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="navbar flex justify-between items-center p-4  ">
+        <div class="flex justify-center items-center md:order-2">
+            <div class="hamburger inline-block p-4 curser-pointer md:hidden">
+                <div class="line h-0.5 w-6 my-1 bg-black "></div>
+                <div class="line h-0.5 w-6 my-1 bg-black "></div>
+                <div class="line h-0.5 w-6 my-1 bg-black "></div>
+
+            </div>
+            <div class="search md:hidden">SearchIcon</div>
+        </div>
+        <div class="logo text-center flex md:order-1">
+            <div><img src="Microsoft_logo.png" class="h-[1.40rem] pl-16 pr-2.5 md:auto" alt=""></div>
+            <div
+                class="features text-xs pt-1.5 md:flex absolute inset-0 w-fit md:static md:w-auto md:bg-white bg-gray-200 md:bg-white md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0">
+                <div class="item px-3">Microsoft 365</div>
+                <div class="item px-3">Office</div>
+                <div class="item px-3">Windows</div>
+                <div class="item px-3">Surface</div>
+                <div class="item px-3">Xbox</div>
+                <div class="item px-3">Support</div>
+            </div>
+        </div>
+        <div class="cart text-center md:order-3 flex">
+            <div class="search hidden md:block"> All Microsoft Search Icon</div>
+            <div>
+                cart account
+            </div>
+        </div>
+
+    </div>
+
+    <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2] h-[30rem]  ">
+        <div class="left flex flex-col mx-3.5 pl-3 justify-center items-center w-[200rem]">
+            <h1 class="text-4xl w-3/4 pb-7 font-semibold">Microsoft 365</h1>
+            <p class="w-3/4  ">Premium Office apps, extra cloud storage, advanced security, and more – all in one
+                convenient subscription</p>
+            <button class="bg-[#0067b8] flex-row text-white font-medium h-10 ml-[-10rem] my-8 w-40">For up to 6 people
+            </button>
+        </div>
+        <div class="right w-[500rem] h-[120rem]">
+            <img src="Microsoft_hero1.jpg" class="w-[500rem] h-[30rem]" alt="">
+        </div>
+    </div>
+
+    <div class="promo flex flex-row items-center justify-center mt-24">
+        <div class="pitem flex flex-col items-center mx-4 space-x-5">
+            <img src="M_1.jpg" alt="">
+            <a href="#" class="font-semibold m-2 text-blue-600 underline underline-offset-1">Choose your Microsoft
+                365</a>
+        </div>
+        <div class="pitem flex flex-col items-center mx-4 space-x-4">
+            <img src="M_2.jpg" alt="">
+            <a href="#" class="font-semibold m-2 text-blue-600 underline underline-offset-1">Explore Surface devices</a>
+        </div>
+        <div class="pitem flex flex-col items-center mx-4 space-x-4">
+            <img src="M_3.jpg" alt="">
+            <a href="#" class="font-semibold m-2 text-blue-600 underline underline-offset-1">Buy Xbox games</a>
+        </div>
+        <div class="pitem flex flex-col items-center mx-4 space-x-4">
+            <img src="M_4.jpg" alt="">
+            <a href="#" class="font-semibold m-2 text-blue-600 underline underline-offset-1">Get Windows 11</a>
+        </div>
+    </div>
+    <div class="flex flex-row m-16">
+        <div class="p-4 md:w-1/3">
+            <div class=""><img class="lg:h-48 md:h-36 w-full object-cover object-center" src="M1_1.jpg" alt="blog">
+                <div class="">
+                    <h1 class="title-font text-[1.75rem] font-semibold text-gray-900 my-4">Surface Laptop Go 2</h1>
+                    <p class="leading-relaxed my-3">A sleek laptop with a 12.4-inch touchscreen, great typing experience
+                        and improved HD camera.</p>
+                    <div class="flex items-center flex-wrap "><a
+                            class="text-indigo-500 inline-flex items-center my-3 md:mb-2 lg:mb-0 text-base font-semibold">Learn
+                            More ></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+            <div class=""><img class="lg:h-48 md:h-36 w-full object-cover object-center" src="M1_2.jpg" alt="blog">
+                <div class="">
+                    <h1 class="title-font text-[1.75rem] font-semibold text-gray-900 my-4">Surface Laptop 4</h1>
+                    <p class="leading-relaxed my-3">Do it all with a perfect balance of sleek, ultra-thin design,
+                        multitasking speed and improved performance.</p>
+                    <div class="flex items-center flex-wrap "><a
+                            class="text-indigo-500 inline-flex items-center my-3 md:mb-2 lg:mb-0 text-base font-semibold">Shop
+                            now ></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+            <div class=""><img class="lg:h-48 md:h-36 w-full object-cover object-center" src="M1_3.jpg" alt="blog">
+                <div class="">
+                    <h1 class="title-font text-[1.75rem] font-semibold text-gray-900 my-4">PC Game Pass</h1>
+                    <p class="leading-relaxed my-3">Unlock 100+ great games and EA Play, plus get your first month for
+                        ₹50. Offer available to new subscribers only.</p>
+                    <div class="flex items-center flex-wrap "><a
+                            class="text-indigo-500 inline-flex items-center my-3 md:mb-2 lg:mb-0 text-base font-semibold">
+                            Join now ></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+            <div class=""><img class="lg:h-48 md:h-36 w-full object-cover object-center" src="M1_4.jpg" alt="blog">
+                <div class="">
+                    <h1 class="title-font text-[1.75rem] font-semibold text-gray-900 my-4">Designed for life today – and
+                        tomorrow</h1>
+                    <p class="leading-relaxed my-3">The next-generation of games. Your goals. Friends and family.
+                        Windows 11 was made to bring you closer to everything you
+                        love.</p>
+                    <div class="flex items-center flex-wrap "><a
+                            class="text-indigo-500 inline-flex items-center my-3 md:mb-2 lg:mb-0 text-base font-semibold">See
+                            if your PC is ready ></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="img m-16">
+        <img src="Microimg.jpg" alt="">
+    </div>
+    <h1 class="mx-20 text-4xl font-semibold mb-[0.25rem] ">For business</h1>
+    <div class="flex flex-row mx-16 mb-16 mt-0">
+
+        <div class="p-4 md:w-1/3">
+            <div class=""><img class="lg:h-48 md:h-36 w-full object-cover object-center" src="M2_1.jpg" alt="blog">
+                <div class="">
+                    <h1 class="title-font text-[1.75rem] font-semibold text-gray-900 my-4">Surface Laptop Go 2 for
+                        Business</h1>
+                    <p class="leading-relaxed my-3">A sleek, portable laptop featuring a great typing experience,
+                        Windows 11 Pro and professional-grade performance.</p>
+                    <div class="flex items-center flex-wrap "><a
+                            class="text-indigo-500 inline-flex items-center my-3 md:mb-2 lg:mb-0 text-base font-semibold">Learn
+                            More ></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+            <div class=""><img class="lg:h-48 md:h-36 w-full object-cover object-center" src="M2_2.jpg" alt="blog">
+                <div class="">
+                    <h1 class="title-font text-[1.75rem] font-semibold text-gray-900 my-4">Get Microsoft Teams for free
+                    </h1>
+                    <p class="leading-relaxed my-3">Online meetings, chat and shared cloud storage – all in one place.
+                    </p>
+                    <div class="flex items-center flex-wrap "><a
+                            class="text-indigo-500 inline-flex items-center my-3 md:mb-2 lg:mb-0 text-base font-semibold">Sign
+                            up for free ></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+            <div class=""><img class="lg:h-48 md:h-36 w-full object-cover object-center" src="M2_3.jpg" alt="blog">
+                <div class="">
+                    <h1 class="title-font text-[1.75rem] font-semibold text-gray-900 my-4">Microsoft 365 for business
+                    </h1>
+                    <p class="leading-relaxed my-3">Stay a step ahead with powerful apps for productivity, connection
+                        and security.</p>
+                    <div class="flex items-center flex-wrap "><a
+                            class="text-indigo-500 inline-flex items-center my-3 md:mb-2 lg:mb-0 text-base font-semibold">
+                            Shop now ></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+            <div class=""><img class="lg:h-48 md:h-36 w-full object-cover object-center" src="M2_4.jpg" alt="blog">
+                <div class="">
+                    <h1 class="title-font text-[1.75rem] font-semibold text-gray-900 my-4">Windows 11 for business is
+                        here</h1>
+                    <p class="leading-relaxed my-3">Designed for hybrid work. Powerful for employees. Consistent for IT.
+                        Secure for all.</p>
+                    <div class="flex items-center flex-wrap "><a
+                            class="text-indigo-500 inline-flex items-center my-3 md:mb-2 lg:mb-0 text-base font-semibold">Learn
+                            more ></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-row my-20">
+        <h1 class="pl-[4rem]">Follow Microsoft</h1>
+        <span class="inline-flex lg:ml-auto mx-16 pr-[70rem] lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto"><a
+                class="text-gray-500"><svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg></a><a class="ml-3 text-gray-500"><svg fill="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path
+                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                    </path>
+                </svg></a><a class="ml-3 text-gray-500"><svg fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg></a><a class="ml-3 text-gray-500"><svg fill="currentColor" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path stroke="none"
+                        d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg></a></span>
+    </div>
+    <footer class="text-gray-600 body-font bg-gray-100 ">
+        <div class="container px-5 py-24 mx-16">
+            <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
+                <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">What's new</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="#" class="text-gray-600 hover:text-gray-800 ">Microsoft store</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-600 hover:text-gray-800 ">Surface Pro X</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-600 hover:text-gray-800 ">Surface Pro 7</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-600 hover:text-gray-800 ">Surface Laptop 3</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-600 hover:text-gray-800 ">Windows 11 apps</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Microsoft Store</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="#" class="text-gray-600 hover:text-gray-800 ">Account profile</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-600 hover:text-gray-800 ">Download Center</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-600 hover:text-gray-800 ">Microsoft Store Support</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-600 hover:text-gray-800 ">Returns</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-600 hover:text-gray-800 ">Order tracking</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
